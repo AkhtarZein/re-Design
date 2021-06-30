@@ -1,0 +1,15 @@
+.img-mid img {
+  border-radius: 1000px;
+  width: 300px;
+  opacity: 0.8;
+}
+
+.margin-bot {
+  margin-bottom: 100px;
+}
+
+.img-left img,
+.img-right img {
+  width: 50px;
+  margin-bottom: 10px;
+}
