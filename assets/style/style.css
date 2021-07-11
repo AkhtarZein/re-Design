@@ -1,6 +1,7 @@
 header {
     box-shadow: 0px 1px 2px grey;
     background: #fff;
+    font-family: TT-Regular;
 }
 
 .style1 a {
@@ -11,7 +12,7 @@ header {
     margin: 0px 6px;
 }
 
-.style2 {
+.layout {
     margin-top: 90px;
 }
 
@@ -44,13 +45,29 @@ header {
     text-align: justify;
 }
 
-.img-kotak img {
+.style7 {
+    flex-direction: row;
+    padding-right: 120px;
+}
+
+.img-kotak img{
     margin-right: 10px;
     margin-bottom: 3.2px;
 }
 
-.style7 {
-    display: flex;
-    flex-direction: row;
-    padding-right: 120px;
+.img-setting{
+    margin-top: 10px;
+}
+
+.style8{
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+    background: white;
+}
+
+.style8:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 2px 2px 4px grey;
 }
