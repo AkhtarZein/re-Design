@@ -1,73 +1,86 @@
 header {
-    box-shadow: 0px 1px 2px grey;
-    background: #fff;
-    font-family: TT-Regular;
+  background: #fff;
 }
 
 .style1 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #111
 }
 
 .style1 ul li {
-    margin: 0px 6px;
+  margin: 0px 6px;
 }
 
 .layout {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .margin-bot {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .style3 {
-    font-size: 10pt;
+  font-size: 10pt;
 }
 
 .style4 {
-    z-index: -1222;
-    position: absolute;
-    bottom: -400px;
+  z-index: -1222;
+  position: absolute;
+  bottom: -400px;
 }
 
 .style5 {
-    z-index: -1222;
-    position: absolute;
-    right: -0px;
-    bottom: -500px;
+  z-index: -1222;
+  position: absolute;
+  right: -0px;
+  bottom: -500px;
 }
 
 .col-5 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .style6 {
-    text-align: justify;
+  text-align: justify;
 }
 
 .style7 {
-    flex-direction: row;
-    padding-right: 120px;
+  flex-direction: row;
+  padding-right: 120px;
 }
 
-.img-kotak img{
-    margin-right: 10px;
-    margin-bottom: 3.2px;
+.img-kotak img {
+  margin-right: 10px;
+  margin-bottom: 3.2px;
+  border-radius: 90px;
 }
 
-.img-setting{
-    margin-top: 10px;
+.img-setting {
+  margin-top: 10px;
 }
 
-.style8{
-    border-radius: 5px;
-    transition: 0.2s;
-    cursor: pointer;
-    background: white;
+.style8 {
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+  background: white;
 }
 
-.style8:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
-    box-shadow: 2px 2px 4px grey;
+.style8:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.get-start-img{
+  margin-bottom: 30px;
+}
+
+.footer-image{
+  margin-bottom: 20px;
+}
+
+.style9 p{
+  font-size: 11pt;
+  color:rgb(124, 124, 124) ;
 }
