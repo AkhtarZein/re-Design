@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+}
+
 header {
   background: #fff;
 }
@@ -9,9 +13,20 @@ header {
 
 .style1 ul li {
   margin: 0px 6px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .layout {
+  margin-top: 200px;
+}
+
+.layout-in{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.layout-half{
   margin-top: 90px;
 }
 
@@ -83,4 +98,12 @@ header {
 .style9 p{
   font-size: 11pt;
   color:rgb(124, 124, 124) ;
+}
+
+.layout-out{
+  margin-top: 50px;
+}
+
+.footer-margin{
+  margin-bottom: 50px;
 }
